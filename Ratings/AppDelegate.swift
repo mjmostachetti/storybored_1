@@ -8,6 +8,7 @@
 
 import UIKit
 
+// delegates entrypoint for the module
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
