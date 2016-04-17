@@ -15,6 +15,8 @@
 		892036EA1CC33C8F009C0F03 /* PlayersViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892036E91CC33C8F009C0F03 /* PlayersViewControllerTableViewController.swift */; };
 		892036EC1CC33D00009C0F03 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892036EB1CC33D00009C0F03 /* Player.swift */; };
 		892036EE1CC33DAE009C0F03 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892036ED1CC33DAE009C0F03 /* SampleData.swift */; };
+		892036F01CC36F9D009C0F03 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892036EF1CC36F9D009C0F03 /* PlayerCell.swift */; };
+		89C5DC6C1CC411E6000B20DD /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5DC6B1CC411E6000B20DD /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		892036E91CC33C8F009C0F03 /* PlayersViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayersViewControllerTableViewController.swift; path = ../PlayersViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		892036EB1CC33D00009C0F03 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		892036ED1CC33DAE009C0F03 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		892036EF1CC36F9D009C0F03 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		89C5DC6B1CC411E6000B20DD /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				892036E91CC33C8F009C0F03 /* PlayersViewControllerTableViewController.swift */,
+				89C5DC6B1CC411E6000B20DD /* PlayerDetailsViewController.swift */,
 				892036D51CC32682009C0F03 /* AppDelegate.swift */,
 				892036D71CC32682009C0F03 /* ViewController.swift */,
 				892036D91CC32682009C0F03 /* Main.storyboard */,
+				892036EF1CC36F9D009C0F03 /* PlayerCell.swift */,
 				892036EB1CC33D00009C0F03 /* Player.swift */,
 				892036ED1CC33DAE009C0F03 /* SampleData.swift */,
 				892036DC1CC32682009C0F03 /* Assets.xcassets */,
@@ -144,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892036F01CC36F9D009C0F03 /* PlayerCell.swift in Sources */,
 				892036EC1CC33D00009C0F03 /* Player.swift in Sources */,
 				892036D81CC32682009C0F03 /* ViewController.swift in Sources */,
+				89C5DC6C1CC411E6000B20DD /* PlayerDetailsViewController.swift in Sources */,
 				892036EA1CC33C8F009C0F03 /* PlayersViewControllerTableViewController.swift in Sources */,
 				892036EE1CC33DAE009C0F03 /* SampleData.swift in Sources */,
 				892036D61CC32682009C0F03 /* AppDelegate.swift in Sources */,
@@ -298,6 +306,7 @@
 				892036E61CC32682009C0F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
